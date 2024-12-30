@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+#main-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#border{
+    height: 430px;
+    width: 350px;
+    border: 1px solid silver;
+    margin-top: 10px;
+}
+#left-img{
+    /* width: 400px; */
+    margin-top: 25px;
+}
+#insta-logo{
+    width: 190px;
+    padding-top: 40px;
+}
+#logo-div{
+    display: flex;
+    justify-content: center;
+}
+#login-div{
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #0095f6;
+    border: none;
+    margin-left: 36px;
+    margin-top: 10px;
+}
+.login{
+    color: white;
+    font-size: 15px;
+    /* font-weight: 600; */
+    font-weight: bold;
+    padding-top: 10px;
+}
+#input-box>input{
+    height: 35px;
+    width: 270px;
+    border-radius: 2px;
+    border: 1px solid silver;
+    margin-bottom: 5px;
+    padding-left: 8px;
+    margin-left: 33px;
+}
+#input-box{
+    margin-top: 35px;
+}
+#title{
+    /* color: white; */
+    font-size: 15px;
+    /* font-family: sans-serif; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1.6rem;
+    color: rgb(102, 101, 101);
+}
+#title::before, #title::after{
+    content: "";
+    height: 1px;
+    width: 90px;
+    background-color: silver;
+    display: block;
+}
+#hr{
+    justify-content: center;
+    width: 40px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+#facebook-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.fa-facebook{
+    font-size: 25px;
+    padding-right: 10px;
+}
+#facebook-text{
+    font-weight: bold;
+}
+#facebook-text, .fa-facebook{
+    color: #3897f1;
+}
+#facebook-text{
+    padding-top: 3px;
+}
+#fyp{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+#bottom-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#border2{
+    height: 60px;
+    width: 350px;
+    border: 1px solid silver;
+    margin-top: 10px;
+    text-align: center;
+}
+#signup{
+    font-size: 15px;
+}
+#dont{
+    margin-top: 23px;
+}
+#a-sign-up{
+    font-weight: bold;
+    text-decoration: none;
+    color: #3897f1;
+}
+#bottom-content{
+    text-align: center;
+}
+#bottom-content>div{
+    margin-top: 20px;
+}
+#bottom-content>div>span{
+    font-size: 15px;
+}
+#ms-logo{
+    width:120px;
+}
+#app-s-logo{
+    width: 150px;
+}
+#footer-content{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.footer-a{
+    text-decoration: none;
+    font-size: 13px;
+    padding-right: 7px;
+    color: rgb(102, 101, 101);
+}
+.select-tag{
+    border: none;
+}
+#ifm{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.select-tag, #ifm{
+    color: rgb(102, 101, 101);
+    background-color: white;
+}

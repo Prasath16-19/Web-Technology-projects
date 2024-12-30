@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+#border{
+    height: 610px;
+    width: 350px;
+    border: 1px solid silver;
+}
+#main-border{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#logo-div{
+    display: flex;
+    justify-content: center;
+}
+#insta-logo{
+    width: 190px;
+    padding-top: 40px;
+}
+#text-top{
+    font-size: 8px;
+    text-align: center;
+    color: rgb(102, 101, 101);
+}
+#text-top-main{
+    width: 270px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+#font-bg{
+    height: 35px;
+    width: 270px;
+    background-color: #0095f6;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 43px;
+}
+.facebook{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 300px;
+}
+#fb-img{
+    width: 17px;
+    margin-right: 10px;
+}
+#but-fb{
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0095f6;
+    border: none;
+}
+#but-fb:hover{
+    background-color: #0988dd;
+}
+#but-fb:active{
+    background-color: grey;
+}
+#title{
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1.6rem;
+    color: rgb(102, 101, 101);
+}
+#title::before, #title::after{
+    content: "";
+    height: 1px;
+    width: 90px;
+    background-color: silver;
+    display: block;
+}
+#hr{
+    justify-content: center;
+    width: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#input-tags>div>input{
+    height: 35px;
+    width: 270px;
+    border-radius: 2px;
+    border: 1px solid silver;
+    margin-bottom: 5px;
+    padding-left: 8px;
+}
+#input-tags{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+a{
+    text-decoration: none;
+}
+#policy{
+    width: 280px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+#policy>span{
+    color: rgb(102, 101, 101);
+}
+#signup-but{
+    color: white;
+    width:270px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0095f6;
+}
+#signup{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#signup>a>button>span{
+    color: rgb(214, 214, 214);
+    font-weight: 600;
+}
+#box2{
+    display: flex;
+    justify-content: center;
+}
+#border2{
+    height: 70px;
+    width: 350px;
+    border: 1px solid silver;
+    margin-top: 10px;
+    text-align: center;
+}
+#box2>#border2>div>span, a{
+    font-size: 14px;
+}
+#box2>#border2>div{
+    padding-top: 30px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#app-store-logo{
+    width: 150px;
+}
+#ms-logo{
+    width: 120px;
+    margin-left: 20px;
+}
+#bottom-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#footer-content{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.footer-a{
+    font-size: 13px;
+    padding-right: 7px;
+    color: rgb(102, 101, 101);
+}
+.select-tag{
+    border: none;
+}
+#ifm{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.select-tag, #ifm{
+    color: rgb(102, 101, 101);
+    background-color: white;
+}
+.login{
+    font-weight: bold;
+}
